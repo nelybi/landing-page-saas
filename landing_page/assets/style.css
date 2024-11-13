@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap");
+/* Styles globaux */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url("/landing_page/image-de-fond\ 21.20.20.jpeg");
+  background-repeat: no-repeat;
+  background-color: #0b0121;
+  color: #ececec;
+  padding: 20px;
+}
+
+/* Style pour la barre de navigation */
+nav {
+  display: flex;
+  justify-content: space-between; /* Espace entre les sections gauche, centre et droite */
+  align-items: center;
+  background-color: rgba(11, 8, 28, 0.5);
+  backdrop-filter: blur(8px);
+  border-radius: 25px;
+  padding: 10px 40px; /* Espace interne de nav */
+}
+
+/* Aligner l'image et le texte dans nav-left */
+.nav-left {
+  display: flex;
+  align-items: center; /* Centre l'image et le texte verticalement */
+  gap: 8px; /* Espace entre l'image et le texte */
+}
+
+.nav-left img {
+  width: 22px;
+  height: 22px;
+}
+
+.nav-left p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 22px;
+  color: hsla(0, 0%, 93%, 1);
+}
+
+/* Centrer les liens dans .middle-nav */
+.middle-nav {
+  display: flex;
+  justify-content: center;
+  gap: 32px; /* Espace entre chaque lien */
+}
+
+.middle-nav a {
+  font-size: 16px;
+  color: #ececec;
+  text-decoration: none;
+  font-weight: 300;
+  white-space: nowrap; /* Empêche le retour à la ligne pour chaque lien */
+}
+
+/* Bouton à droite de la barre de navigation */
+nav button {
+  width: 180px;
+  height: 40px;
+  padding: 8px 20px;
+  border-radius: 50px;
+  background: hsla(0, 0%, 93%, 1);
+  border: none;
+  color: hsla(249, 56%, 7%, 1);
+  font-size: 14px;
+  font-weight: 300;
+  cursor: pointer;
+}
+/* style pour le premiere section avec h1 */
+h1 {
+  margin: 0;
+  max-width: 960px;
+  max-height: 160px;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 80px;
+  letter-spacing: -0.03em;
+  background: linear-gradient(
+    145.55deg,
+    #ececec 20.35%,
+    rgba(236, 236, 236, 0) 128.73%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  gap: 24px;
+  margin-top: 80px;
+}
+
+.title-section p {
+  max-width: 600px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: center;
+  color: hsla(0, 0%, 93%, 0.65);
+  margin: 0;
+}
+
+/* Style pour la petite div */
+.first-bloc {
+  text-align: center;
+  border: 1.24px solid hsla(0, 0%, 100%, 0.3);
+  border-radius: 61.91px;
+  width: 350px;
+}
+.first-bloc p {
+  font-weight: 300;
+  padding: 4px;
+  color: hsla(220, 30%, 96%, 1);
+  font-size: 14px;
+}
+
+.double-button {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.double-button1 {
+  width: 197px;
+  height: 48px;
+  padding: 12px 24px 12px 24px;
+  gap: 8px;
+  border-radius: 60px;
+  background: hsla(0, 0%, 93%, 1);
+  border: none;
+  color: hsla(249, 56%, 7%, 1);
+  font-size: 14px;
+  font-weight: 200;
+  cursor: pointer;
+}
+.double-button2 {
+  width: 197px;
+  height: 48px;
+  padding: 12px 24px 12px 24px;
+  gap: 8px;
+  border-radius: 60px;
+  background: none;
+  border: 1px solid hsla(0, 0%, 93%, 1);
+  color: hsla(0, 0%, 93%, 1);
+  font-size: 14px;
+  font-weight: 200;
+  cursor: pointer;
+}
+.first-image {
+  width: 960px;
+  height: 472px;
+  box-shadow: 0px -2px 20px -5px hsla(0, 0%, 100%, 0.5);
+  border-radius: 24px;
+  margin-top: 50px;
+}
+/* section trust */
+
+.trust {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+}
+.p-trust {
+  font-weight: 400;
+}
+.trust p {
+  font-size: 20px;
+  font-weight: 300;
+  color: hsla(0, 0%, 100%, 0.8);
+}
+.trust div img {
+  padding: 24px;
+}
+
+/* section featurs */
+.features {
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  margin-bottom: 60px;
+}
+.features h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 57.6px;
+  letter-spacing: -0.32px;
+  color: hsla(0, 0%, 93%, 1);
+  margin-top: 0;
+}
+.features p {
+  color: hsla(0, 0%, 93%, 1);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28.8px;
+}
+
+/*row */
+.row-1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 60px;
+}
+
+.card img {
+  width: 50px;
+  aspect-ratio: 1/1;
+}
+.card h2 {
+  margin: 0;
+}
+
+.card a {
+  color: hsla(0, 0%, 100%, 1);
+  font-size: 14px;
+}
+
+.card p {
+  font-size: 14px;
+  font-weight: 200;
+  text-align: left;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 60px;
+  background: linear-gradient(180deg, #170d2c 0%, #0b0322 100%);
+  box-shadow: 0px -2px 15px -5px hsla(0, 0%, 100%, 0.5);
+  border-radius: 20px;
+  width: 678px;
+}
+
+/*row-2*/
+.card-3 p {
+  width: 600px;
+}
+.card-3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: auto;
+  height: 500px;
+  justify-content: space-around;
+  align-content: space-between;
+  gap: 16px;
+  background: linear-gradient(180deg, #170d2c 0%, #0b0322 100%);
+  box-shadow: 0px -2px 15px -5px hsla(0, 0%, 100%, 0.5);
+  border-radius: 20px;
+  padding: 60px;
+  margin: 20px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.card-3 img {
+  width: 50px;
+  aspect-ratio: 1/1;
+}
+.card-3 a {
+  margin-top: 0; /* Place le lien en bas de la card */
+  color: hsla(0, 0%, 100%, 1);
+  font-size: 14px;
+}
+.card-3 :last-child {
+  width: 467px;
+  height: 300px;
+  object-fit: cover;
+  box-shadow: 0px -2px 15px hsla(0, 0%, 100%, 0.5);
+  border-radius: 20px;
+}
+.card-4 {
+  width: auto;
+  height: 500px;
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #170d2c 0%, #0b0322 100%);
+  box-shadow: 0px -2px 20px -5px hsla(0, 0%, 100%, 0.5);
+  border-radius: 20px;
+  padding: 50px;
+  gap: 40px;
+}
+
+.card-4 h2 {
+  width: 768px;
+  font-size: 48px;
+  text-align: center;
+  margin: 0;
+}
+.card-4 p {
+  text-align: center;
+  margin: 0;
+  width: 768px;
+}
+.card-4 button {
+  width: 197px;
+  height: 48px;
+  padding: 12px 24px 12px 24px;
+  gap: 8px;
+  border-radius: 60px;
+  background: none;
+  border: 1px solid hsla(0, 0%, 93%, 1);
+  color: hsla(0, 0%, 93%, 1);
+  font-size: 14px;
+  font-weight: 200;
+  cursor: pointer;
+  align-self: center;
+}
+.section-before-footer {
+  margin-top: 60px;
+}
+
+.footer {
+  margin-top: 120px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+footer p {
+  font-weight: lighter;
+}
+.paragraphe {
+  line-height: 5px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.paragraphe2 {
+  line-height: 5px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.paragraphe3 {
+  line-height: 10px;
+  margin-bottom: 30px;
+}
+
+.last-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+small {
+  display: block;
+  margin: 0 20px;
+  font-weight: lighter;
+  font-size: small;
+}
