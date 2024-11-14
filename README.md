@@ -11,9 +11,8 @@ Ce projet consiste en la création d'une landing page pour un produit SaaS. La p
 - Design responsive adapté pour les appareils mobiles et desktop.
 - Mise en page optimisée pour la conversion avec sections pour les témoignages, fonctionnalités, et un appel à l'action.
 
-- ## Aperçu
-Vous pouvez consulter la landing page en direct sur GitHub Pages en suivant ce lien : [Landing Page SaaS en direct]([URL_GITHUB_PAGES](https://nelybi.github.io/landing-page-saas/))
-
+## Aperçu
+Vous pouvez consulter la landing page en direct sur GitHub Pages en suivant ce lien : [Landing Page SaaS en direct](https://nelybi.github.io/landing-page-saas/)
 
 ## Ce que j'ai appris
 - Création d'une structure de page axée sur la conversion pour une landing page.
